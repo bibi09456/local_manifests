@@ -6,6 +6,6 @@
         <remote name="bibi"
                 fetch="https://github.com/bibi09456" />
 
-        <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="Tiktodz" revision="lineage-21-4.4" />
+        <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="bibi" revision="lineage-21-4.4" />
         <project path="vendor/asus" name="android_vendor_asus_X00TD" remote="Tiktodz" revision="udc-4.4" />
 </manifest>
