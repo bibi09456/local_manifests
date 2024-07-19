@@ -5,7 +5,18 @@
                 fetch="https://github.com/Tiktodz" />
         <remote name="bibi"
                 fetch="https://github.com/bibi09456" />
+        <remote name="inexdroid"
+                fetch="https://github.com/inexdroid" />
 
         <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="bibi" revision="lineage-21-4.4" />
         <project path="vendor/asus" name="android_vendor_asus_X00TD" remote="Tiktodz" revision="udc-4.4" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="14-eas-su" sync-s="true" />
+
+	<remove-project name="LineageOS/android_hardware_qcom_audio" />
+	<remove-project name="LineageOS/android_hardware_qcom_display" />
+	<remove-project name="LineageOS/android_hardware_qcom_media" />
+	<project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="inexdroid" revision="14" />
+	<project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="inexdroid" revision="14-los" />
+	<project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="inexdroid" revision="14" />
+
 </manifest>
