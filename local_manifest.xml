@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <manifest>
-        <remote name="SonicBSV"
-                fetch="https://github.com/SonicBSV" />
+        <remote name="SKeTU-l"
+                fetch="https://github.com/SKeTU-l" />
         <remote name="bibi"
                 fetch="https://github.com/bibi09456" />
 
-        <project path="device/asus/X00TD" name="android_device_asus_X00TD-4.19" remote="SonicBSV" revision="lineage-21.0" />
-        <project path="vendor/asus" name="proprietary_vendor_asus-4.19" remote="SonicBSV" revision="lineage-21.0" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD-4.19" remote="bibi" revision="fourteen" />
+        <project path="vendor/asus" name="vendor_asus-4.19" remote="SKeTU-l" revision="fourteen" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660-4.19" remote="bibi" revision="lineage-21.0" />
-        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common-4.19" remote="bibi" revision="lineage-21.0" />
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common-4.19" remote="bibi" revision="fourteen-non-dynamic" />
 </manifest>
