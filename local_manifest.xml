@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <manifest>
-        <remote name="bibi09456"
-                fetch="https://github.com/bibi09456" />
+        <remote name="DevUknown"
+                fetch="https://gitlab.com/DevUknown" />
 
         <remove-project name="kernel/common" />
-        <project path="common" name="kernel_xiaomi_rodin" remote="bibi09456" revision="v-oss" />
+        <project path="common" name="kernel-xiaomi-rodin-rebased-with-latest-ack-and-modules" remote="DevUknown" revision="rodin-gpu" />
 </manifest>
