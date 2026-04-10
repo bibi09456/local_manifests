@@ -5,5 +5,5 @@
                 fetch="https://github.com/71chjzkc" />
 
         <remove-project name="kernel/common" />
-        <project path="common" name="gki-aosp" remote="71chjzkc" revision="main" />
+        <project path="common" name="gki-aosp" remote="71chjzkc" revision="2946a8a428159ee155277dcb1c518b59a2b245f4" />
 </manifest>
