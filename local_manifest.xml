@@ -22,9 +22,9 @@
         <project path="vendor/xiaomi/rodin" name="vendor_xiaomi_rodin" remote="ram-unlok" revision="TheCloverProject" />
         <project path="packages/apps/DolbyUI" name="packages_apps_DolbyUI" remote="swiitch-OFF-Lab" revision="16.0" /> 
         <project path="hardware/dolby" name="hardware_dolby" remote="swiitch-OFF-Lab" revision="moto-1.4" />
-        <project path="vendor/bcr" name="bcr" remote="ram-unlok" />
-        <project path="vendor/PixelPlay" name="vendor_PixelPlay" remote="ram-unlok" />
-        <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="TogoFire" />
-        <project path="vendor/gcam" name="vendor_gcam" remote="rakmoparte" />
+        <project path="vendor/bcr" name="bcr" remote="ram-unlok" revision="main" />
+        <project path="vendor/PixelPlay" name="vendor_PixelPlay" remote="ram-unlok" revision="main" />
+        <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="TogoFire" revision="v4a" />
+        <project path="vendor/gcam" name="vendor_gcam" remote="rakmoparte" revision="main" />
         <project path="vendor/partner_gms" name="android_vendor_partner_gms" remote="lineageos4microg" revision="master" />
 </manifest>
