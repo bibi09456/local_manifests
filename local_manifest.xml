@@ -13,18 +13,16 @@
                 fetch="https://github.com/lineageos4microg" />
         <remote name="rakmoparte"
                 fetch="https://rakmoparte@bitbucket.org/ram-unlok" />
+        <remote name="Elvettorato"
+                fetch="https://github.com/Elvettorato" />
 
-        <project path="device/xiaomi/rodin" name="android_device_xiaomi_rodin" remote="Digimend-X-Rodin" revision="lineage-23.2" />
+        <project path="device/xiaomi/rodin" name="android_device_xiaomi_rodin" remote="Elvettorato" revision="lineage-23.2" />
         <project path="hardware/mediatek" name="android_hardware_mediatek" remote="Digimend-X-Rodin" revision="lineage-23.2" />
         <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="Digimend-X-Rodin" revision="lineage-23.2" />
         <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="Digimend-X-Rodin" revision="lineage-23.2" />
         <project path="device/xiaomi/rodin-kernel" name="android_device_xiaomi_rodin-kernel" remote="Digimend-X-Rodin" revision="lineage-23.2" />
-        <project path="vendor/xiaomi/rodin" name="vendor_xiaomi_rodin" remote="ram-unlok" revision="TheCloverProject" />
+        <project path="vendor/xiaomi/rodin" name="vendor_xiaomi_rodin" remote="ram-unlok" revision="f89439d80f087a2ec96ed6c2eda38d33b534ed46" />
         <project path="packages/apps/DolbyUI" name="packages_apps_DolbyUI" remote="swiitch-OFF-Lab" revision="16.0" /> 
         <project path="hardware/dolby" name="hardware_dolby" remote="swiitch-OFF-Lab" revision="moto-1.4" />
-        <project path="vendor/bcr" name="bcr" remote="ram-unlok" revision="main" />
-        <project path="vendor/PixelPlay" name="vendor_PixelPlay" remote="ram-unlok" revision="main" />
-        <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="TogoFire" revision="v4a" />
-        <project path="vendor/gcam" name="vendor_gcam" remote="rakmoparte" revision="main" />
         <project path="vendor/partner_gms" name="android_vendor_partner_gms" remote="lineageos4microg" revision="master" />
 </manifest>
