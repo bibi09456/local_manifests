@@ -24,5 +24,4 @@
         <project path="vendor/xiaomi/rodin" name="vendor_xiaomi_rodin" remote="ram-unlok" revision="TheCloverProject" />
         <project path="packages/apps/DolbyUI" name="packages_apps_DolbyUI" remote="swiitch-OFF-Lab" revision="16.0" /> 
         <project path="hardware/dolby" name="hardware_dolby" remote="swiitch-OFF-Lab" revision="sony-1.5" />
-        <project path="vendor/partner_gms" name="android_vendor_partner_gms" remote="lineageos4microg" revision="master" />
 </manifest>
